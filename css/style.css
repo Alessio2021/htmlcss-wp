@@ -20,14 +20,14 @@ body {
 }
 
 
-.header-main{
+.header-main #logo{
     height: 4em;
     width: 10em;
-    background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
     margin-bottom: 1em;
     border-right: 1px solid lightgrey;
+    padding-right: 1em;
 }
 
 nav {
@@ -41,10 +41,25 @@ nav a {
 }
 
 .jumbotron {
-    height: 15em;
-    background-color: rgb(225,214,122);
+    height: 20em;
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
     margin-bottom: 1em;
+}
 
+.jumbotron .inside_text {
+    padding-top: 20em;
+    padding-left: 3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1em;
+}
+
+.thin {
+    font-size: 0.5em;
 }
 
 .article {
