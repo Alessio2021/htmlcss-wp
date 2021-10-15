@@ -1,6 +1,6 @@
 html {
     font-size: 100%;
-}
+    font-family: 'Montserrat', sans-serif;}
 
 body {
     margin:0;
@@ -28,6 +28,16 @@ body {
     background-size: contain; 
     margin-bottom: 1em;
     border-right: 1px solid lightgrey;
+}
+
+nav {
+    padding: 1.5em 0;
+}
+
+nav a {
+    padding-right: 1em;
+    text-decoration: none; 
+    color: gray;
 }
 
 .jumbotron {
