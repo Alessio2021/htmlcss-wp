@@ -15,7 +15,7 @@ body {
 }
 
 .container { 
-    width: 80%;
+    width: 70%;
     margin: 0.8em auto;
 }
 
@@ -41,7 +41,7 @@ nav a {
 }
 
 .jumbotron {
-    height: 20em;
+    height: 35em;
     width: 100%;
     background-image: url(../img/banner.jpg);
     background-position: center;
@@ -57,38 +57,37 @@ nav a {
 }
 
 .jumbotron .inside_text {
-    padding: 13em 15em 0em 3em;
+    padding: 17em 31em 0em 3em;
     color: white;
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: 400;
     margin-bottom: auto;
 }
 
 .thin {
-    font-size: 0.7em;
-    padding: 0px 29em 0 4.3em;;
+    font-size: 0.9em;
+}
+
+.white {
+    padding: 0px 53em 0 4.6em;
     color: white;
 }
 
+.grey {
+    color: grey;
+}
+
+
 .article {
     width: 100%;
-    background-color: rgb(0,134,255);
-     margin-bottom: 0.5em;
-}
+    margin-bottom: 0.5em;
 
-.riga_header {
-    height: 5em;
-    background-color: rgb(171,207,231);
 }
-
-.col_center {
-    height: 30em;
-    width: 44%;
-    margin: 2em;
+#subject_article {
+    margin-bottom: auto;
 }
 
 .col_left, .col_right {
-    height: 30em;
     width: calc(28% - 2em);
     margin-bottom: 2em;
     margin-top: 2em
@@ -96,11 +95,43 @@ nav a {
 
 [class*="col_"] {
     float: left;
-    background-color: rgb(171,207,231);
+}
 
+.col_center {
+    width: 44%;
+    margin: 2em;
+}
+
+.pictures_left {
+    background-image: url(../img/img-1.jpg);
+    background-size: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16em;
+}
+
+.pictures_center {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16em;
+}
+
+.pictures_right {
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 16em;
 }
 
 .footer {
-    height: 3em;
-    background-color: rgb(136,1,254);
+    text-align:center ;
+}
+
+#heart {
+    color: red;
 }
