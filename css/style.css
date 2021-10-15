@@ -50,16 +50,24 @@ nav a {
     margin-bottom: 1em;
 }
 
-.jumbotron .inside_text {
-    padding-top: 20em;
-    padding-left: 3em;
-    color: white;
+.dark {
     background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.jumbotron .inside_text {
+    padding: 13em 15em 0em 3em;
+    color: white;
     font-size: 1em;
+    font-weight: 400;
+    margin-bottom: auto;
 }
 
 .thin {
-    font-size: 0.5em;
+    font-size: 0.7em;
+    padding: 0px 29em 0 4.3em;;
+    color: white;
 }
 
 .article {
