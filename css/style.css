@@ -21,9 +21,13 @@ body {
 
 
 .header-main{
-    height: 5em;
-    background-color: rgb(229,121,230);
+    height: 4em;
+    width: 10em;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
     margin-bottom: 1em;
+    border-right: 1px solid lightgrey;
 }
 
 .jumbotron {
@@ -42,7 +46,6 @@ body {
 .riga_header {
     height: 5em;
     background-color: rgb(171,207,231);
-    margin-bottom: 1em;
 }
 
 .col_center {
