@@ -39,6 +39,14 @@ nav a {
     color: gray;
 }
 
+li {
+    list-style-type: none;
+}
+
+li > div {
+    display: inline-block;
+}
+
 .jumbotron {
     height: 35em;
     width: 100%;
